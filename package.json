@@ -49,15 +49,15 @@
     "passport-google-oauth2": "^0.2.0",
     "passport-local": "^1.0.0",
     "pm2": "^4.2.3",
-    "pug": "^2.0.4"
+    "pug": "^2.0.4",
+    "winston": "^3.2.1"
   },
   "devDependencies": {
     "autofixture": "^1.1.0",
     "chai": "^4.2.0",
     "chai-http": "^4.3.0",
     "mocha": "^6.1.4",
-    "morgan": "^1.9.1",
-    "winston": "^3.2.1"
+    "morgan": "^1.9.1"
   },
   "engines": {
     "node": "13.x"
