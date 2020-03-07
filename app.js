@@ -25,7 +25,7 @@ const route = require('./config/routes/routes');
 mongo.init(app);
 passprt.init(app);
 expr.init(app);
-// cors.init(app);
+cors.init(app);
 route.init(app);
 
 

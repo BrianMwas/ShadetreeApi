@@ -51,7 +51,7 @@
 
 apps : [{
   name: "app",
-  script: "app.js",
+  script: "./app.js",
   instances: "3",
   env: {
     NODE_ENV: "development",
