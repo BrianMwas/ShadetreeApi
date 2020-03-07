@@ -1,0 +1,42 @@
+
+.head {
+    height: 30%;
+    width: 100%;
+    display: flex;
+    margin: 0;
+    padding: 1em .5em;
+    background: linear-gradient(to left, #21b441, #454545 50%);
+    text-align: left;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.middle {
+    min-height: 20vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+p {
+    font-size: 1.4rem;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    color: rgb(26, 26, 26);
+}
+
+a {
+    width: 50%;
+    height: 10vh;
+    text-decoration: none;
+    color: rgb(253, 253, 253);
+    background-color: #13a750;
+    border-radius: 50%;
+    margin: 2em auto;
+}
