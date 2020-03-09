@@ -23,7 +23,7 @@ module.exports = {
       host : '212.83.163.1',
       ref  : 'origin/master',
       repo : 'https://github.com/BrianMwas/ShadetreeApi.git',
-      path : '/var/www/production',
+      path : 'app.js',
       'post-deploy' : 'npm install && pm2 reload ecosystem.config.js --env production'
     }
   }
