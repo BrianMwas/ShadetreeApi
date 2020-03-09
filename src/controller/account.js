@@ -1,5 +1,5 @@
 const User = require('../model/user');
-const Profile = require('../model/profile');
+// const Profile = require('../model/profile');
 const _ = require('lodash');
 const greeting = require('../../services/greeting');
 
