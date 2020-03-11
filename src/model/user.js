@@ -52,15 +52,7 @@ const UserSchema = new Schema({
     },
     isActivated: {
       type: Boolean,
-      default : function() {
-        if (this.roles == ['agent']  || this.roles == ['owner']) {
-          return false;
-        } else if(this.roles == ['user'] || this.roles == ['admin']) {
-          return true;
-        } else {
-            return false;
-        }
-      }
+      default : false
     },
     isAdmin: {
         type: Boolean,

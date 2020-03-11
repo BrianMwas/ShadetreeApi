@@ -14,6 +14,6 @@ function initPassport() {
     });
 
     //load strategies
-    // require("../strategies/local").init();
+    require("../strategies/local").init();
     // require('../strategies/googleStrategy').init()
 }
