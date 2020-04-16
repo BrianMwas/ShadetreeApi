@@ -18,14 +18,14 @@ app.set('env', ENV);
 const mongo = require('./config/mongoose/mongoose');
 const passprt =require('./config/passport/passport');
 const expr = require('./config/express/express');
-const cors = require('./config/cors/corsConfig');
 const route = require('./config/routes/routes');
+const cors = require('cors');
 
 // initialize
 mongo.init(app);
 passprt.init(app);
 expr.init(app);
-cors.init(app);
+app.use(cors());
 route.init(app);
 
 

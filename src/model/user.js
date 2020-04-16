@@ -56,14 +56,9 @@ const UserSchema = new Schema({
     },
     isAdmin: {
         type: Boolean,
-        required: true,
-        // default: function () {
-        //     if(this.roles == ['agent'] || this.roles == ['user'] || this.roles == ['owner']) {
-        //         return false
-        //     } else {
-        //         return true
-        //     }
-        // }
+        required: false,
+        
+        default: this.roles === ['admin']
     },
     createdAt: {
         type: Date,

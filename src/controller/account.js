@@ -62,13 +62,6 @@ exports.register = function(req, res, next) {
                     message: "Hi," + user.username + " welcome to the shack. Please activate your account using the link we sent to your email"
                 });
             }
-
-            if(roles === 'admin') {
-                return res.status(200).json({
-                    success: true,
-                    message: "Hi," + user.username + "Welcome you have registered as an Admin"
-                });
-            }
             res.status(200).json({
                 success  : true,
                 message: "Hi," + user.username + " welcome to reelostate."
